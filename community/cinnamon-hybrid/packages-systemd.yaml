@@ -1,11 +1,11 @@
 - name: "Artwork"
   description: Themes and Wallpapers
-
+  
   subgroups:
       - name: "Artwork Cinnamon"
-        description: "Manjaro-Cinnamon wallpapers"
-        packages:
-             - cinnamon-wallpapers
+       description: "Manjaro-Cinnamon wallpapers"
+       packages:
+            - cinnamon-wallpapers
 
       - name: "Artwork Manjaro"
        description: "Additional themes and wallpapers"
