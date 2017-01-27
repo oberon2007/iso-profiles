@@ -3,7 +3,6 @@ cinnamon-sounds
 dconf-editor
 dmidecode
 evince
-exfat-utils
 fuse-exfat
 galculator
 gksu
@@ -13,7 +12,6 @@ gnome-screenshot
 gnome-system-log
 gnome-system-monitor
 gnome-terminal
-gnome-vfs
 gst-libav
 gst-plugins-bad
 gst-plugins-base
@@ -46,7 +44,6 @@ nemo-python
 nemo-share
 netctl
 networkmanager-dispatcher-ntpd
-nss
 nss-mdns
 ntp
 numlockx
@@ -61,9 +58,6 @@ pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-gconf
 pulseaudio-zeroconf
-python2-gnomecanvas
-python2-gnomevfs
-python2-libgnome
 python2-ptyprocess
 python-ptyprocess
 qt5ct
