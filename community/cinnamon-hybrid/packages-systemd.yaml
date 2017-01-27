@@ -1,12 +1,10 @@
 - name: "Artwork"
   description: Themes and Wallpapers
-  
   subgroups:
       - name: "Artwork Cinnamon"
        description: "Manjaro-Cinnamon wallpapers"
        packages:
             - cinnamon-wallpapers
-
       - name: "Artwork Manjaro"
        description: "Additional themes and wallpapers"
        packages:
@@ -46,46 +44,39 @@
 
 - name: "Internet"
   description: "Browser, Chat and Filetransfer"
-
   subgroups:
       - name: "Firefox"
        description: "Mozilla Firefox"
        packages:
             - firefox
-
       - name: "Chromium"
        description: "Chromium"
        packages:
             - chromium
-
       - name: "Palemoon"
        description: "Palemoon"
        packages:
             - palemoon-bin
-
       - name: "Chat"
        description: "Chat and filetransfer"
        packages:
             - hexchat
-
       - name: "Filetransfer"
        description: "Torrent Client"
        packages:
             - transmission-gtk
 
 - name: "Email"
-
+  description: "Email/PIM Client"
   subgroups:
       - name: "Claws Mail"
        description: "Claws Mail"
        packages:
             - claws-mail
-
       - name: "Evolution"
        description: "Mailclient/PIM Evolution"
        packages:
             - evolution
-
       - name: "Thunderbird"
        description: "Mailclient/PIM Thunderbird"
        packages:
