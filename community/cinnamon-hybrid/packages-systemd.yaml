@@ -90,11 +90,7 @@
   packages:
       - bmenu
       - downgrade
-      - htop
       - p7zip
-      - screenfetch
-      - tree
-      - vi
       - vim
 
 - name: "Documentation"
@@ -195,5 +191,4 @@
         - nemo-python
         - nemo-share
         - openvpn
-        - p7zip
         - parcellite
