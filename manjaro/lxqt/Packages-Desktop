@@ -1,10 +1,16 @@
 alsa-firmware
+>basic manjaro-lxqt-minimal-settings
 compton
 dmidecode
+>extra lximage-qt
+>extra manjaro-lxqt-settings
+>extra qupzilla
+>extra vlc
 gvfs
 inxi
 kwrite
 lxqt-about
+lxqt-admin
 lxqt-common
 lxqt-config
 lxqt-globalkeys
@@ -18,12 +24,11 @@ lxqt-runner
 lxqt-session
 lxqt-sudo
 manjaro-hotfixes
-manjaro-lxqt-minimal-settings
 mobile-broadband-provider-info
 modemmanager
 network-manager-applet
 nss-mdns
-numlockx
+obconf-qt
 openbox
 >openrc alsa-utils-openrc
 >openrc avahi-openrc
@@ -41,7 +46,7 @@ openbox
 pcmanfm-qt
 powertop
 qterminal
-sddm-andromeda-qt-theme
+sddm-qt-manjaro-theme
 >systemd alsa-utils
 >systemd avahi
 >systemd networkmanager
