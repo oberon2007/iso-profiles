@@ -61,6 +61,8 @@
         description: "Chat and filetransfer"
         packages:
             - hexchat
+            - pidgin
+            - pidgin-libnotify
       - name: "Filetransfer"
         description: "Torrent Client"
         packages:
@@ -140,8 +142,10 @@
         - gst-plugins-base
         - gst-plugins-good
         - gst-plugins-ugly
+        - gstreamer
         - flac
         - libdvdcss
+        - npapi-vlc
         - pragha
         - vlc-nightly
 
@@ -170,3 +174,26 @@
         - parcellite
         - xarchiver
         - xfburn
+
+- name: "cinnamon-base"
+  description: "essential pkgs for target install"
+  hidden: true
+  selected: true
+  packages:
+        - blueberry
+        - dconf-editor
+        - ffmpegthumbnailer
+        - galculator
+        - gnome-disk-utility
+        - libgsf
+        - mesa-demos
+        - mobile-broadband-provider-info
+        - modemmanager
+        - mousetweaks
+        - nemo-fileroller
+        - nemo-preview
+        - nemo-python
+        - nemo-share
+        - openvpn
+        - p7zip
+        - parcellite
