@@ -1,0 +1,194 @@
+- name: "Artwork"
+  description: Themes and Wallpapers
+  subgroups:
+      - name: "Artwork Cinnamon"
+        description: "Manjaro-Cinnamon wallpapers"
+        packages:
+            - cinnamon-wallpapers
+      - name: "Artwork Manjaro"
+        description: "Additional themes and wallpapers"
+        packages:
+            - flattr-icon-theme
+            - manjaro-backgrounds
+            - vertex-maia-icon-theme
+            - xcursor-maia
+
+- name: "AUR"
+  description: "Tools for building packages from the AUR"
+  packages:
+      - autoconf
+      - automake
+      - binutils
+      - bison
+      - fakeroot
+      - file
+      - findutils
+      - flex
+      - gawk
+      - gcc
+      - gettext
+      - grep
+      - groff
+      - gzip
+      - libtool
+      - m4
+      - make
+      - patch
+      - pkg-config
+      - sed
+      - sudo
+      - texinfo
+      - util-linux
+      - which
+      - yaourt
+
+- name: "Internet"
+  description: "Browser, Chat and Filetransfer"
+  subgroups:
+      - name: "Firefox"
+        description: "Mozilla Firefox"
+        packages:
+            - firefox
+      - name: "Chromium"
+        description: "Chromium"
+        packages:
+            - chromium
+      - name: "Palemoon"
+        description: "Palemoon"
+        packages:
+            - palemoon-bin
+      - name: "Chat"
+        description: "Chat and filetransfer"
+        packages:
+            - hexchat
+            - pidgin
+            - pidgin-libnotify
+      - name: "Filetransfer"
+        description: "Torrent Client"
+        packages:
+            - transmission-gtk
+
+- name: "Email"
+  description: "Email/PIM Client"
+  subgroups:
+      - name: "Claws Mail"
+        description: "Claws Mail"
+        packages:
+            - claws-mail
+      - name: "Evolution"
+        description: "Mailclient/PIM Evolution"
+        packages:
+            - evolution
+      - name: "Thunderbird"
+        description: "Mailclient/PIM Thunderbird"
+        packages:
+            - lightning
+            - thunderbird
+
+- name: "CLI tools"
+  description: "Command line utilities"
+  packages:
+      - bmenu
+      - downgrade
+      - p7zip
+      - vim
+
+- name: "Documentation"
+  description: "Manjaro User Guide"
+  packages:
+      - manjaro-documentation
+
+- name: "Gaming"
+  description: "Steam packages"
+  packages:
+      - steam-manjaro
+
+- name: "Graphics"
+  description: "A selection of graphics tools"
+  packages:
+      - eog
+      - eog-plugins
+      - gcolor2
+      - gimp
+
+- name: "Java"
+  description: "Java packages"
+  packages:
+      - jre8-openjdk
+      - jre8-openjdk-headless
+      - icedtea-web
+
+- name: "X-apps"
+  description: "Linuxmint x-apps stack"
+  packages:
+        - pix
+        - xed
+        - xplayer
+        - xreader
+        - xviewer
+        - xviewer-plugins
+
+- name: "Multimedia extra"
+  description: "Multimedia packages"
+  packages:
+        - ffmpeg
+        - ffmpegthumbnailer
+        - gst-libav
+        - gst-plugins-bad
+        - gst-plugins-base
+        - gst-plugins-good
+        - gst-plugins-ugly
+        - gstreamer
+        - flac
+        - libdvdcss
+        - npapi-vlc
+        - pragha
+        - vlc-nightly
+
+- name: "Office-suite Libreoffice"
+  description: "Libreoffice-Suite"
+  packages:
+        - libreoffice-fresh
+        
+- name: "Printing"
+  description: "Printer configuration"
+  packages:
+        - manjaro-printer
+
+- name: "Scanning"
+  description: "Scanning utilities"
+  packages:
+        - xsane-gimp
+
+- name: "Utilities"
+  description: "GUI tools"
+  packages:
+        - baobab
+        - galculator
+        - gparted
+        - isousb
+        - parcellite
+        - xarchiver
+        - xfburn
+
+- name: "cinnamon-base"
+  description: "essential pkgs for target install"
+  hidden: true
+  selected: true
+  packages:
+        - blueberry
+        - dconf-editor
+        - ffmpegthumbnailer
+        - galculator
+        - gnome-disk-utility
+        - libgsf
+        - mesa-demos
+        - mobile-broadband-provider-info
+        - modemmanager
+        - mousetweaks
+        - nemo-fileroller
+        - nemo-preview
+        - nemo-python
+        - nemo-share
+        - openvpn
+        - parcellite
